@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="hmsweather">
+    <meta name="description" content="HmsWeather weather application made by hamas akhtar ">
+    <link rel="shortcut icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>HmsWeather - Home</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">HmsWeather</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input id="city" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button id="submit" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container my-3">
+        <h4 class="text-center">Weather For <span id="cityName"></span></h4>
+        <div class="container">
+            <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Temperature</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title"><span id="temp"></span> <small class="text-muted">°C
+                        </small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li> Sunset <span id="sunset"></span> </li>
+                            <!-- <li> Temp <span id="temp"></span> </li> -->
+                            <li> Sunrise <span id="sunrise"></span> </li>
+                            <!-- <li> Wind speed <span id="wind_speed"></span> </li> -->
+                        </ul>
+                        <!-- <button id="submit" type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button> -->
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Humidity</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title"><span id="humidity"></span> <small class="text-muted">%</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li> Cloud_pct <span id="cloud_pct"></span>  </li>
+                            <li> Feels_like <span id="feels_like"></span> </li>
+                            <!-- <li> Humidity  <span id="humidity"></span></li> -->
+                        </ul>
+                        <!-- <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button> -->
+                    </div>
+                </div>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Windspeed</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title"><span id="wind_speed"></span> <small class="text-muted">km/h</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li> Max_temp <span id="max_temp"></span> </li>
+                            <li> Min_temp <span id="min_temp"></span> </li>
+                            <!-- <li> Sunrise <span id="sunrise"></span> </li> -->
+                        </ul>
+                        <!-- <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button> -->
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="script.js"></script>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    
+<script>
+    const disabledKeys = ["u", "I","ctrlKey","shiftKey"];
+    
+    const showAlert = e => {
+        e.preventDefault();
+        return alert("Sorry, you can't view or copy source codes this way!");
+    }
+    
+    document.addEventListener("contextmenu", e => {
+        showAlert(e);
+    });
+    
+    document.addEventListener("keydown", e => {
+        if (e.ctrlKey && disabledKeys.includes(e.key) || e.key === "F12") {
+            showAlert(e);
+        }
+    });
+</script>
+
+</body>
+
+</html>
